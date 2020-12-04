@@ -1,0 +1,283 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+header {
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+}
+nav {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #182425;
+    margin-top: 5%;
+    margin-bottom: 2%;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #182425;
+
+}
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-top: 16px;
+    color: #182425;
+
+}
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 80px;
+    color: #32BACD;
+}
+
+ h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #182425;
+    
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #182425;
+
+}
+
+hr {
+    border: 0.5px solid #C4C4C4;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    
+}
+
+footer {
+    font-family: 'Roboto', sans-serif;
+    color: #182425;
+    font-size: 14px;
+    width: auto;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+button {
+background-color: #32bbcd;
+color: white;
+font-weight: 700;
+font-size: 14px;
+outline: none;
+border-radius: 2px;
+width: 128px;
+height: 32px;
+border: none;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #166772;
+  text-decoration: none;
+}
+
+button:active {
+  cursor: pointer;
+  background-color: #30d0e6;
+  
+}
+
+button:disabled {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-decoration: none; }
+
+a {
+    text-decoration: none;
+    target:"_blank";
+    color: #182425;
+}
+
+a:active {
+    cursor: pointer;
+    text-decoration: none; }
+
+
+a:hover {
+    cursor: pointer;
+    color: #30d0e6;
+  }
+
+a:visited {
+    text-decoration: none;
+}
+
+.pressed{
+    font-weight: 700;
+    color: #32BACD;
+}
+
+
+.page-wrapped {
+    max-width: 928px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.title {
+    padding-top: 24px;
+    max-width: 500px;
+}
+.arrow {
+    padding-bottom: 80px;
+    padding-top: 24px;
+}
+
+.recent {
+    background-color: #F2F7F8;
+    padding-bottom: 24px;
+}
+
+.description{
+    padding-top: 16px;
+    padding-bottom: 32px;
+    max-width: 80%;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    max-width: 928px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-line {
+    border: 1px solid #182425;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;  
+}
+
+.intro{
+    max-width: 352px;
+    padding: 40px 0px;
+   
+}
+
+.welcome{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.lang {
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.green {
+    color: #32BACD;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.gray {
+    color: #797979;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.project-img {
+  width: 100%;
+  padding-top: 24px;
+}
+
+.foto {
+    text-align: right;
+}
+
+.project-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.foto-quiquefer {
+ padding-top: 0px;
+ max-width: 500px;
+}
+.contact {
+    text-align: center;
+    padding-top: 16px;
+    padding-bottom: 32px;
+}
+
+.links {
+    margin: 5% auto;
+    display: flex;
+    justify-content: space-between;
+    margin:5% 30%;
+    text-align: center;
+}
+
+.bottom-line {
+    background-color: #32BACD;
+    height: 24px;
+}
+
+  
+@media screen and (max-width: 768px) {       
+    .nav-bar {
+        margin:24px 16px;
+        font-size: 16px;
+    }
+    .intro {max-width: 100%;}
+    .page-wrapped {margin:16px;}
+    .foto {display: none;}
+    .description {
+        max-width: 100%;
+        padding-bottom: 8px;;
+    }
+    .project-info{
+        flex-direction:column;
+        align-items: stretch;
+    
+    }
+    .links {
+        text-align: center;
+        justify-content: space-evenly;
+        margin:5% 10%;
+    }
+
+
+
+    h2 {
+        font-size:21px;
+    }
+    h3 {
+        padding-top:32px ;
+    }
+
+    button {
+        margin:16px 0px 16px 0px;
+   
+
+    }
+    footer {
+        margin:0 auto;
+    }
+    
+}    
